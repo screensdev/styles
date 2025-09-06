@@ -1,3 +1,4 @@
+'use client';
 export const symmetricDifference = (source: Set<any>, other: Set<any>) => {
   const result = new Set(source);
   for (const e of other.keys()) {

@@ -1,3 +1,4 @@
+'use client';
 import type { ThemableStyleSheet } from './types/input';
 
 /**

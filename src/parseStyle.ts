@@ -1,3 +1,4 @@
+'use client';
 import { Platform } from 'react-native';
 import { matchContainerQuery } from './container';
 import { matchMediaQuery, type ScreenSize } from './media';

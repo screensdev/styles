@@ -1,8 +1,7 @@
 'use client';
-
 import React, { useCallback, useRef } from 'react';
 
-import { View } from 'react-native';
+import type { View } from 'react-native';
 import type { LayoutChangeEvent, ViewProps } from 'react-native';
 import { ContainerContext } from './container-context';
 
@@ -12,7 +11,7 @@ import { ContainerContext } from './container-context';
  * @returns - new component wrapped in container context
  */
 const createContainerComponent = (
-  Component: React.ComponentType<ViewProps & React.RefAttributes<View>> = View
+  Component: React.ComponentType<ViewProps & React.RefAttributes<View>>
 ) => {
   const ContainerComponent = React.forwardRef<View, ViewProps>(
     (props: ViewProps, ref) => {

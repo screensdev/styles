@@ -1,3 +1,4 @@
+'use client';
 import { useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import type { Nullable } from './types/common';
 import { isWithinTheWidth, type ParsedMqDimension } from './media';

@@ -1,3 +1,4 @@
+'use client';
 import type { StrictBreakpoints } from './theme';
 import type { Nullable } from './types/common';
 import { useRef, useState } from 'react';
